@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.first_color {
+    color: #0e77af;
+}
+
+/* -------------------------------------- */
+/*      Contact Section      */
+.contact {
+    background: #0e77af;
+}
+
+.rotating_icon {
+    transition: all .3s linear;
+}
+
+.rotating_icon:hover {
+    transform: rotateY(180deg);
+}
+
+.custom_link {
+    transition: all .3s linear;
+}
+
+.custom_link:hover {
+    text-shadow: 0px 0px 20px #0e77af;
+}
+
+/* ---------------------------------------- */
+/*      Body Section        */
+.body {
+    background: url("Images/main_bg.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.custom_button {
+    background: #B4141B;
+    padding: 15px 40px;
+    transition: all .3s linear;
+    color: white;
+    border: 1px solid #B4141B;
+    font-weight: medium;
+}
+
+.custom_button:hover {
+    background: transparent;
+    color: #B4141B;
+    text-shadow: 0px 0px 20px #B4141B;
+    box-shadow: 0px 0px 20px #B4141B;
+}
+
+/* --------------------------------------- */
+/*      Info Section        */
+.info_card {
+    background: linear-gradient(180deg, #F8F8F8 0%, #F7F7F7 100%);
+    cursor: pointer;
+}
+/* --------------------------------------------------- */
+/*      Benefits Section         */
+.bg_col {
+    background: url("Images/doctors_touching_hexagon.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.strip_1 {
+    background: #fff;
+    transition: all .3s linear;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+
+.strip_1:hover {
+    background: transparent;
+    color: #0e77af;
+    box-shadow: 0px 0px 20px #000;
+    text-shadow: 0px 0px 20px #000;
+}
+
+.strip_2 {
+    background-color: #0e77af;
+    transition: all .3s linear;
+    border: 1px solid #0e77af;
+    cursor: pointer;
+    color: white;
+}
+
+.strip_2:hover {
+    background: transparent;
+    color: #0e77af;
+    box-shadow: 0px 0px 20px #000;
+    text-shadow: 0px 0px 20px #000;
+}
+
+.bg_col_2 {
+    background: linear-gradient(180deg, #FCFCFC 0%, #F8F8F8 100%);
+}
+/* -------------------------------------------------- */
+/*      Services Section         */
+.accordion_img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    object-position: center;
+}
+/* --------------------------------------------- */
+/*      Testimonals Section      */
+.testimonals {
+    background: #0e77af;
+}
+/* --------------------------------- */
+/*      Form Section         */
+.appointment {
+    background: linear-gradient(180deg, #FCFCFC 0%, #F7F7F7 100%);
+}
+/* --------------------------------- */
+/*      Footer Section       */
+.custom_link_2 {
+    color: white;
+    transition: all .3s linear;
+}
+
+.custom_link_2:hover {
+    text-shadow: 0px 0px 20px #B4141B;
+    color: white;
+}
